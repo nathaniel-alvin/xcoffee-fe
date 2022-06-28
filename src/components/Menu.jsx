@@ -12,7 +12,7 @@ function Menu() {
   async function allItems() {
     // GET REQUEST
     var request = await axios
-      .get("http://127.0.0.1:8000/menus")
+      .get("https://xcoffeevin.herokuapp.com/menus")
       .then((request) => {
         let items = request.data;
         let item = [];

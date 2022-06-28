@@ -13,6 +13,7 @@ import { Auth } from "./firebase-config";
 import NavBar from "./components/NavBar";
 import Title from "./components/Title";
 import Menu from "./components/Menu";
+// import Footer from "./components/Footer";
 
 const App = () => {
   const [isAuth, setIsAuth] = useState(false);
@@ -27,6 +28,7 @@ const App = () => {
         <div className="bg">
           <NavBar />
           <Title />
+          {/* <Footer /> */}
         </div>
 
         <div className="menu">

@@ -81,3 +81,9 @@ a:hover {
   line-height: 1;
   letter-spacing: 2px;
 }
+
+.menu {
+  height: 100vh;
+  background: url("./asset/menubg.jpg");
+  background-size: cover;
+}

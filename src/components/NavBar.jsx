@@ -8,6 +8,7 @@ function NavBar() {
         <Container>
           <Navbar.Brand href="/">X-COFFEE</Navbar.Brand>
           <Nav>
+            <Nav.Link href="#contact">FEEDBACK</Nav.Link>
             <Nav.Link href="#contact">CONTACT US</Nav.Link>
             <Nav.Link href="#login">LOGIN</Nav.Link>
           </Nav>
