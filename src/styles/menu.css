@@ -1,0 +1,11 @@
+Table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table_body {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 1rem;
+}
