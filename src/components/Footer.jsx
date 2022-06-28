@@ -1,74 +1,49 @@
 import React from "react";
-import { CDBFooter, CDBFooterLink, CDBBox, CDBBtn, CDBIcon } from "cdbreact";
+import "../styles/footer.css";
 
 function Footer() {
   return (
-    <CDBFooter className="shadow">
-      <CDBBox
-        display="flex"
-        flex="column"
-        className="mx-auto py-5"
-        style={{ width: "90%" }}
-      >
-        <CDBBox display="flex" justifyContent="between" className="flex-wrap">
-          <CDBBox>
-            <a href="/" className="d-flex align-items-center p-0 text-dark">
-              <img alt="logo" src="logo" width="30px" />
-              <span className="ml-3 h5 font-weight-bold">Devwares</span>
-            </a>
-            <p className="my-3" style={{ width: "250px" }}>
-              We are creating High Quality Resources and tools to Aid developers
-              during the developement of their projects
+    <div className="main_footer">
+      <div className="container">
+        <div className="row">
+          {/* Col 1 */}
+          <div className="col">
+            <h4>X-COFFEE INC</h4>
+            <ul className="list">
+              <li>0818-1234-1234</li>
+              <li>DKI Jakarta, Indonesia</li>
+              <li>Jl. Pulau Baru 240</li>
+              <li>08:00 - 24:00</li>
+            </ul>
+          </div>
+          {/* Col 2 */}
+          <div className="col">
+            <h4>X-COFFEE INC</h4>
+            <ul className="list">
+              <li>0818-1234-1234</li>
+              <li>DKI Jakarta, Indonesia</li>
+              <li>Jl. Pulau Baru 240</li>
+              <li>08:00 - 24:00</li>
+            </ul>
+          </div>
+          {/* Col 3 */}
+          <div className="col">
+            <h4>X-COFFEE history</h4>
+            <p>
+              X-COFFEE is the best coffee cafe in town. It has been around for
+              40 years. We are known for our special coffee taste.
             </p>
-            <CDBBox display="flex" className="mt-4">
-              <CDBBtn flat color="dark">
-                <CDBIcon fab icon="facebook-f" />
-              </CDBBtn>
-              <CDBBtn flat color="dark" className="mx-3">
-                <CDBIcon fab icon="twitter" />
-              </CDBBtn>
-              <CDBBtn flat color="dark" className="p-2">
-                <CDBIcon fab icon="instagram" />
-              </CDBBtn>
-            </CDBBox>
-          </CDBBox>
-          <CDBBox>
-            <p className="h5 mb-4" style={{ fontWeight: "600" }}>
-              Devwares
-            </p>
-            <CDBBox flex="column" style={{ cursor: "pointer", padding: "0" }}>
-              <p href="/">Resources</p>
-              <p href="/">About Us</p>
-              <p href="/">Contact</p>
-              <p href="/">Blog</p>
-            </CDBBox>
-          </CDBBox>
-          <CDBBox>
-            <p className="h5 mb-4" style={{ fontWeight: "600" }}>
-              Help
-            </p>
-            <CDBBox flex="column" style={{ cursor: "pointer", padding: "0" }}>
-              <p href="/">Support</p>
-              <p href="/">Sign Up</p>
-              <p href="/">Sign In</p>
-            </CDBBox>
-          </CDBBox>
-          <CDBBox>
-            <p className="h5 mb-4" style={{ fontWeight: "600" }}>
-              Products
-            </p>
-            <CDBBox flex="column" style={{ cursor: "pointer", padding: "0" }}>
-              <p href="/">Windframe</p>
-              <p href="/">Loop</p>
-              <p href="/">Contrast</p>
-            </CDBBox>
-          </CDBBox>
-        </CDBBox>
-        <small className="text-center mt-5">
-          &copy; Devwares, 2020. All rights reserved.
-        </small>
-      </CDBBox>
-    </CDBFooter>
+          </div>
+        </div>
+        <hr />
+        <div className="row">
+          <p className="col-foot">
+            &copy;{new Date().getFullYear()} X-COFFEE INC | All rights reserved
+            | Terms Of Service | Privacy
+          </p>
+        </div>
+      </div>
+    </div>
   );
 }
 
