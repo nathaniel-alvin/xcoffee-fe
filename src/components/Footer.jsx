@@ -18,17 +18,16 @@ function Footer() {
           </div>
           {/* Col 2 */}
           <div className="col">
-            <h4>X-COFFEE INC</h4>
+            <h4>SOCIALS</h4>
             <ul className="list">
-              <li>0818-1234-1234</li>
-              <li>DKI Jakarta, Indonesia</li>
-              <li>Jl. Pulau Baru 240</li>
-              <li>08:00 - 24:00</li>
+              <li>Instagram</li>
+              <li>Facebook</li>
+              <li>Twitter</li>
             </ul>
           </div>
           {/* Col 3 */}
           <div className="col">
-            <h4>X-COFFEE history</h4>
+            <h4>X-COFFEE History</h4>
             <p>
               X-COFFEE is the best coffee cafe in town. It has been around for
               40 years. We are known for our special coffee taste.

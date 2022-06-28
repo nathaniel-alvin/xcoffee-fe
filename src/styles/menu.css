@@ -9,3 +9,9 @@ Table {
   gap: 5px;
   padding: 1rem;
 }
+
+.order_button {
+  width: 100%;
+  margin: auto;
+  
+}

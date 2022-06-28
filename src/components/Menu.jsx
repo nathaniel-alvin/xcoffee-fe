@@ -51,7 +51,9 @@ function Menu() {
           </tbody>
         </Table>
       </div>
-      <Button variant="dark">Order</Button>
+      <div className="order_button text-center">
+        <Button variant="dark">Online Order</Button>
+      </div>
     </div>
   );
 }

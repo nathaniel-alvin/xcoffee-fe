@@ -35,7 +35,7 @@ const App = () => {
             <Menu />
           </div>
 
-          <div>
+          <div id="contact">
             <Footer />
           </div>
         </Router>
