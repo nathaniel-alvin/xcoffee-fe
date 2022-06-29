@@ -22,7 +22,7 @@
     text-align:center;
   }
 
-  body{
+  .login{
     margin: 0;
     padding: 0;
     font-family: roboto-light;
@@ -47,7 +47,7 @@
     width: 400px;
     height: 520px;
     background: var(--main-color);
-    border-radius: 10px;
+    /* border-radius: 10px; */
   }
   
   /* box panel for the login decor*/
@@ -58,7 +58,7 @@
     transform: translate(-50%, -50%);
     width: 400px;
     background: rgb(238, 238, 238);
-    border-radius: 10px;
+    /* border-radius: 10px; */
   }
   
   .login_box_front h1{
